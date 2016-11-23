@@ -222,6 +222,10 @@ li {
 	font-size: 2em;
 }
 
+.shortcut{
+	text-transform: none !important;
+}
+
 /* Navigation */
 .navigation {
 	float: right;
@@ -563,7 +567,7 @@ li {
 /** =================================================**/
 /** Start banner Section **/
 /** =================================================**/
-
+/*
 .banner {
 	background: url(../images/slideshow/banner-1.jpg) no-repeat;
 	background-attachment: fixed;
@@ -606,21 +610,21 @@ li {
 	background-color: #f26520;
 	border-color: #f26520;
 	color: #fff;
-}
+}*/
 
 .text-slider .owl-page.active span {
 	background: #f26520;
 }
 
 .text-slider .owl-pagination {
-	position: absolute;
+	/*position: absolute;*/
 	right: 0;
 	top: 40%;
 	margin-right: -80px;
 }
 
 .text-slider .owl-controls .owl-page {
-	display: block;
+	/*display: block;*/
 }
 
 
@@ -2526,4 +2530,8 @@ and (max-width : 767px) {
 
 .soft-whole {
 	padding: 20px;
+}
+
+.hidden {
+	display: none;
 }

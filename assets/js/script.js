@@ -179,7 +179,7 @@ $(document).ready(function($) {
 		stopOnHover: true,
 		autoPlay: true,
 		singleItem: false,
-		items: 4,
+		items: 3,
 		navigationText: ['<i class="fa fa-chevron-left"></i>',
 			'<i class="fa fa-chevron-right"></i>'
 		]
@@ -193,7 +193,7 @@ $(document).ready(function($) {
 		stopOnHover: true,
 		autoPlay: true,
 		singleItem: true,
-		items: 1,
+		items: 2,
 		navigationText: ['<i class="fa fa-chevron-left"></i>',
 			'<i class="fa fa-chevron-right"></i>'
 		]
@@ -285,5 +285,11 @@ $(function() {
 				return false;
 			}
 		}
+	});
+});
+
+$(document).ready(function() {
+	$("#showteam").click(function() {
+		$(".hidden").removeClass("hidden");
 	});
 });
