@@ -1093,7 +1093,13 @@ img.tp-slider-alternative-image	{
 
 body.rtl .tp-kbimg {left: 0 !important}
 
+/*******************
+	- SOFT MODE -
+*******************/
 
+.soft {
+  padding: 20px;
+}
 
 /***************************
 	- 3D SHADOW MODE -
